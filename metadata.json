@@ -1,0 +1,6 @@
+{
+  "name": "Tayeb & Cylia",
+  "description": "Private romantic couples question game for long-distance lovers",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

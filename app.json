@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Tayeb & Cylia ❤️",
+    "slug": "tayeb-cylia-love-game",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#09030E"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aistudio.tayebcylia.lovegame"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#09030E"
+      },
+      "package": "com.aistudio.tayebcylia.lovegame"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Tayeb & Cylia to select consensual photos to share with your partner."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "tayeb-cylia-couples-game"
+      }
+    }
+  }
+}
